@@ -1,1 +1,91 @@
-local v0=loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/Gui%20Lib%20%5BLibrary%5D"))();local v1=loadstring(game:HttpGet("https://raw.githubusercontent.com/CQWEO/COLORS/main/README.md"))();local v2=loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/Gui/main/Gui%20Lib%20%5BSaveManager%5D"))();local v3=loadstring(game:HttpGet("https://raw.githubusercontent.com/KINGHUB01/BlackKing/main/Blackking%20%5BGuiNew!%5D"))();local v4=Instance.new("Sound");v4.Parent=game.SoundService;v4.SoundId="rbxassetid://4590657391";v4.Volume=5;v4.PlayOnRemove=true;v4:Destroy();v3:Introduction();wait(1);v0:Notify("Loaded");local v44=v0:CreateWindow({Title="YOU HUB SPEEDRUN" ,Center=true,AutoShow=true,TabPadding=5,MenuFadeTime=0.2 + 0 });local v45={Main=v44:AddTab("Main")};local v46=v45.Main:AddLeftGroupbox(" ");game:GetService("RunService").RenderStepped:Connect(function()pcall(function()if _G.speedkuys then game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=_G.SelectBootst;end end);end);game:GetService("RunService").RenderStepped:Connect(function()pcall(function()if (_G.SpeedHack and (game.Players.LocalPlayer.Character.Humanoid.WalkSpeed==(16))) then game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=18;elseif (_G.SpeedHack and (game.Players.LocalPlayer.Character.Humanoid.WalkSpeed==(20))) then game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=22;elseif (_G.SpeedHack and (game.Players.LocalPlayer.Character.Humanoid.WalkSpeed==(24)))) then game.Players.LocalPlayer.Character.Humanoid.WalkSpeed=26 ;elseif _G.SpeedHack then local v796=31 + 4 + game.Players.LocalPlayer.Character.Humanoid:GetAttribute("SpeedBoost") ;if (game.Players.LocalPlayer.Character.Humanoid.WalkSpeed<=v796) then game.Players.LocalPlayer.Character.Humanoid.WalkSpeed+=_G.SelectBoots end end end);end);game:GetService("RunService").RenderStepped:Connect(function()pcall(function()if _G.FieldOfView then game:GetService("Workspace").Camera.FieldOfView=_G.FieldOfViewe;end end);end);v46:AddSlider("MySliderspeed",{Text="Thanh Tốc Độ",Default=6,Min=0 -0 ,Max=6,Rounding=1,Compact=true,Callback=function(v80)_G.SelectBoots=v80;end});v46:AddSlider("MySlider",{Text="Thanh Góc Nhìn ",Default=120,Min=1226 -(1074 + 82) ,Max=120,Rounding=0 -0 ,Compact=true,Callback=function(v81)_G.FieldOfViewe=v81;end});_G.SelectBoots=1790.5 -(214 + 1570) ;_G.FieldOfViewe=120;v46:AddToggle("MyToggle",{Text="Nhận Tốc Độ",Default=false,Tooltip="Nhận Tốc Độ Để Chạy Nhanh Hơn",Callback=function(v82)v0:Notify("");local v171=Instance.new("Sound");v171.Parent=game.SoundService;v171.SoundId="rbxassetid://4590657391";v171.Volume=11 -6 ;v171.PlayOnRemove=true;v171:Destroy();_G.SpeedHack=v82;if (_G.SpeedHack==false) then game:GetService("Players").LocalPlayer.PlayerGui.MainUI.MainFrame.Healthbar.Effects.SpeedBoost.Visible=false;elseif (_G.SpeedHack==true) then game:GetService("Players").LocalPlayer.PlayerGui.MainUI.MainFrame.Healthbar.Effects.SpeedBoost.Visible=true;end end});v46:AddToggle("MyToggle",{Text="Nhận Góc Nhìn",Default=false,Tooltip="Nhận Góc Nhìn Xa",Callback=function(v83)v0:Notify("");local v171=Instance.new("Sound");v171.Parent=game.SoundService;v171.SoundId="rbxassetid://4590657391";v171.Volume=11 -6 ;v171.PlayOnRemove=true;v171:Destroy();local v84=1455 -(990 + 465) ;while true do if (0==v84) then if (v83==true) then local v449=0 + 0 ;local v450;while true do if (0==v449) then v450=game:GetService("TweenService");v450:Create(game.Workspace.CurrentCamera,TweenInfo.new(0.9),{FieldOfView=_G.FieldOfViewe}):Play();break;end end elseif (v83==false) then local v621=game:GetService("TweenService");v621:Create(game.Workspace.CurrentCamera,TweenInfo.new(0.9),{FieldOfView=31 + 39 }):Play();end wait(0.8 + 0 );v84=3 -2 ;end if (v84==1) then _G.FieldOfView=v83;break;end end end});game:GetService("RunService").RenderStepped:Connect(function()pcall(function()for v243,v244 in next,game.Players.LocalPlayer.Character:GetDescendants() do if (v244.IsA(v244,"BasePart") and getgenv().col) then v244.CanCollide=false;end end end);end);game:GetService("RunService").RenderStepped:Connect(function()pcall(function()if _G.SlowDownnnonononoo then if (game.Players.LocalPlayer.Character.Head.Massless==true) then local v451=1726 -(1668 + 58) ;local v452;while true do if (v451==(626 -(512 + 114))) then v452=false;game.Players.LocalPlayer.Character.Head.Massless=v452;game.Players.LocalPlayer.Character.LeftFoot.Massless=v452;game.Players.LocalPlayer.Character.LeftHand.Massless=v452;v451=2 -1 ;end if ((1 -0)==v451) then game.Players.LocalPlayer.Character.LeftLowerArm.Massless=v452;game.Players.LocalPlayer.Character.LeftLowerLeg.Massless=v452;game.Players.LocalPlayer.Character.LeftUpperArm.Massless=v452;game.Players.LocalPlayer.Character.LeftUpperLeg.Massless=v452;v451=6 -4 ;end if (v451==(2 + 1)) then game.Players.LocalPlayer.Character.RightLowerLeg.Massless=v452;game.Players.LocalPlayer.Character.RightUpperArm.Massless=v452;game.Players.LocalPlayer.Character.RightUpperLeg.Massless=v452;game.Players.LocalPlayer.Character.UpperTorso.Massless=v452;break;end if (v451==2) then game.Players.LocalPlayer.Character.LowerTorso.Massless=v452;game.Players.LocalPlayer.Character.RightFoot.Massless=v452;game.Players.LocalPlayer.Character.RightHand.Massless=v452;game.Players.LocalPlayer.Character.RightLowerArm.Massless=v452;v451=3;end end end end end);end);v46:AddToggle("MyToggle",{Text="Giảm Chậm",Default=false,Tooltip="Giảm Chậm Khi Chạy",Callback=function(v85)v0:Notify("");local v171=Instance.new("Sound");v171.Parent=game.SoundService;v171.SoundId="rbxassetid://4590657391";v171.Volume=11 -6 ;v171.PlayOnRemove=true;v171:Destroy();_G.SlowDownnnonononoo=v85;if (_G.SlowDownnnonononoo==false) then local v245=true;game.Players.LocalPlayer.Character.Head.Massless=v245;game.Players.LocalPlayer.Character.LeftFoot.Massless=v245;game.Players.LocalPlayer.Character.LeftHand.Massless=v245;game.Players.LocalPlayer.Character.LeftLowerArm.Massless=v245;game.Players.LocalPlayer.Character.LeftLowerLeg.Massless=v245;game.Players.LocalPlayer.Character.LeftUpperArm.Massless=v245;game.Players.LocalPlayer.Character.LeftUpperLeg.Massless=v245;game.Players.LocalPlayer.Character.LowerTorso.Massless=v245;game.Players.LocalPlayer.Character.RightFoot.Massless=v245;game.Players.LocalPlayer.Character.RightHand.Massless=v245;game.Players.LocalPlayer.Character.RightLowerArm.Massless=v245;game.Players.LocalPlayer.Character.RightLowerLeg.Massless=v245;game.Players.LocalPlayer.Character.RightUpperArm.Massless=v245;game.Players.LocalPlayer.Character.RightUpperLeg.Massless=v245;game.Players.LocalPlayer.Character.UpperTorso.Massless=v245;end end});v46:AddToggle("MyToggle",{Text="Đi Xuyên Tường",Default=false,Tooltip="Đi Xuyên Tường",Callback=function(v86)v0:Notify(" ");local v171=Instance.new("Sound");v171.Parent=game.SoundService;v171.SoundId="rbxassetid://4590657391";v171.Volume=11 -6 ;v171.PlayOnRemove=true;v171:Destroy();local v87=0 + 0 ;while true do if (v87==0) then getgenv().col=v86;if (getgenv().col==false) then v.IsA(v,"BasePart");v.CanCollide=true;end break;end end end});local v46=v45.Main:AddRightGroupbox("");game:GetService("RunService").RenderStepped:Connect(function()pcall(function()if _G.FullBright then local v315=0 + 0 ;while true do if (v315==1) then game:GetService("Lighting").ClockTime=47 -33 ;game:GetService("Lighting").GlobalShadows=false;v315=2;end if (v315==0) then game:GetService("Lighting").FogEnd=100000;game:GetService("Lighting").Brightness=3;v315=1;end if (v315==(1996 -(109 + 1885))) then game:GetService("Lighting").OutdoorAmbient=Color3.new(1,1,1);break;end end end end);end);v46:AddToggle("MyToggle",{Text="Ánh Sáng Đầy",Default=false,Tooltip="Đầy Ánh Sáng",Callback=function(v88);if v88 then _G.FullBright=true;else _G.FullBright=false;game:GetService("Lighting").FogEnd=11111111533265722 -(802 + 24) ;game:GetService("Lighting").Brightness=5 -2 ;game:GetService("Lighting").ClockTime=20;game:GetService("Lighting").GlobalShadows=false;game:GetService("Lighting").OutdoorAmbient=Color3.new(1,1,1);end end});v46:AddButton({Text="Tăng Độ Hoạ Một Tí",Default=false,Tooltip="Tăng Một Tí Độ Hoạ",Callback=function()v0:Notify("Đã nhận");local v171=Instance.new("Sound");v171.Parent=game.SoundService;v171.SoundId="rbxassetid://4590657391";v171.Volume=11 -6 ;v171.PlayOnRemove=true;v171:Destroy();loadstring(game:HttpGet("https://raw.githubusercontent.com/CQWEO/BladeBallScript/main/FPSSCRIPTS"))();end});v46:AddButton({Text="Tự Động Chém Bóng Đỏ",Default=false,Tooltip="Tự Đánh Bóng Đỏ",Callback=function()v0:Notify("Đã nhận");local v171=Instance.new("Sound");v171.Parent=game.SoundService;v171.SoundId="rbxassetid://4590657391";v171.Volume=11 -6 ;v171.PlayOnRemove=true;v171:Destroy();loadstring(game:HttpGet("https://raw.githubusercontent.com/CQWEO/BladeBallScript/main/BLADEBALL"))();end});v46:AddButton({Text="Định Vị Tốc Độ Bóng",Default=false,Tooltip="Nhìn Trên Đầu Của Bạn Đó Là Tốc Độ Bóng",Callback=function()v0:Notify("Đã nhận");local v171=Instance.new("Sound");v171.Parent=game.SoundService;v171.SoundId="rbxassetid://4590657391";v171.Volume=11 -6 ;v171.PlayOnRemove=true;v171:Destroy();loadstring(game:HttpGet("https://raw.githubusercontent.com/CQWEO/BladeBallScript/main/AutoParryBallByRechedmcvnAndWaterExecute"))();end"});v46:AddButton({Text="Thanh Coi Mượt & Lag",Default=false,Tooltip="Thanh Coi Lag & Mượt",Callback=function()v0:Notify("Đã nhận");local v171=Instance.new("Sound");v171.Parent=game.SoundService;v171.SoundId="rbxassetid://4590657391";v171.Volume=11 -6 ;v171.PlayOnRemove=true;v171:Destroy();loadstring(game:HttpGet("https://raw.githubusercontent.com/CQWEO/BladeBallScript/main/BarFPSms"))();end});
+local localPlayer = game.Players.LocalPlayer
+local character = localPlayer.Character or localPlayer.CharacterAdded:Wait()
+local abilitiesFolder = character:WaitForChild("Abilities")
+
+local ChosenAbility = "Raging Deflection"
+
+local function createGUI()
+    local screenGui = Instance.new("ScreenGui")
+    screenGui.Name = "AbilityChooser"
+    screenGui.Parent = game.Players.LocalPlayer:WaitForChild("PlayerGui")
+
+    local frame = Instance.new("Frame")
+    frame.Size = UDim2.new(0.080, 100, 0.45, 100)
+    frame.Position = UDim2.new(0.15, -90, 0.4, -100)
+    frame.BackgroundColor3 = Color3.new(0.2, 0.2, 0.2)
+    frame.BorderSizePixel = 0
+    frame.Parent = screenGui
+
+    local isDragging = false
+    local dragInput
+    local dragStart
+    local startPos
+
+    local function update(input)
+        local delta = input.Position - dragStart
+        frame.Position = UDim2.new(startPos.X.Scale, startPos.X.Offset + delta.X, startPos.Y.Scale, startPos.Y.Offset + delta.Y)
+    end
+
+    frame.InputBegan:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.Touch then
+            isDragging = true
+            dragStart = input.Position
+            startPos = frame.Position
+
+            input.Changed:Connect(function()
+                if input.UserInputState == Enum.UserInputState.End then
+                    isDragging = false
+                end
+            end)
+        end
+    end)
+
+    frame.InputChanged:Connect(function(input)
+        if input.UserInputType == Enum.UserInputType.Touch then
+            dragInput = input
+        end
+    end)
+
+    game:GetService("UserInputService").InputChanged:Connect(function(input)
+        if input == dragInput and isDragging then
+            update(input)
+        end
+    end)
+
+    local abilities = {"Dash", "Forcefield", "Invisibility", "Platform", "Raging Deflection", "Shadow Step", "Super Jump", "Telekinesis", "Thunder Dash", "Freeze", "Infinity", "Pull", "Rapture", "Phase Bypass", "Waypoint"}
+    local buttonHeight = 14
+    for i, ability in ipairs(abilities) do
+        local button = Instance.new("TextButton")
+        button.Size = UDim2.new(1, 0, 0, buttonHeight)
+        button.Position = UDim2.new(0, 0, 0, (i - 1) * (buttonHeight + 5))
+        button.Text = ability
+        button.BackgroundColor3 = Color3.new(0.8, 0.8, 0.8)
+        button.BorderColor3 = Color3.new(1, 1, 1)
+        button.Parent = frame
+        
+        button.MouseButton1Click:Connect(function()
+            ChosenAbility = ability
+        end)
+    end
+end
+
+local function onCharacterAdded(newCharacter)
+    character = newCharacter
+    abilitiesFolder = character:WaitForChild("Abilities")
+    createGUI()
+end
+
+localPlayer.CharacterAdded:Connect(onCharacterAdded)
+createGUI()
+
+while task.wait() do
+    for _, obj in pairs(abilitiesFolder:GetChildren()) do
+        if obj:IsA("LocalScript") then
+            if obj.Name == ChosenAbility then
+                obj.Disabled = false
+            else
+                obj.Disabled = true
+            end
+        end
+    end
+end
