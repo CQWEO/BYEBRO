@@ -701,7 +701,10 @@ if Floor.Value == "Hotel" or Floor.Value == "Fools" then
         end
     end)
 end
-Tab2:Slider("God Mode","God Mode Far How Much",0,15,0,function(Bool)
+Tab2:Slider("God Mode","God Mode Far How Much",0,15,0,function(Bool)local Collison = game.Players.LocalPlayer.Character:FindFirstChild("Collision")
+Collison.Position = Collison.Position - Vector3.new(0,Bool,0)
+    end)
+end
 TextChatService.OnIncomingMessage = function(MessageData)
     task.spawn(function()
         local ChatWindow = game.CoreGui.ExperienceChat.appLayout.chatWindow.scrollingView.bottomLockedScrollView.RCTScrollView.RCTScrollContentView
