@@ -1,7 +1,7 @@
 if game.CoreGui:FindFirstChild("FluxLib") or game.CoreGui:FindFirstChild("Message") then return end
 
 local Flux = loadstring(game:HttpGet("https://lolcat.boo/assets/flux-fixed"))()
-local Window = Flux:Window("awesome script  ", "Doors", Color3.new(0,0.8), Enum.KeyCode.RightControl)
+local Window = Flux:Window("YOU HUB", "Credits By Rechedmcvn", Color3.new(7,9.9), Enum.KeyCode.RightControl)
 local Tab = Window:Tab("Main", "rbxassetid://6026568198")
 local Tab2 = Window:Tab("Visual", "rbxassetid://6031763426")
 local ReplicatedStorage = game:GetService("ReplicatedStorage")
@@ -701,6 +701,7 @@ if Floor.Value == "Hotel" or Floor.Value == "Fools" then
         end
     end)
 end
+Tab2:Slider("God Mode","God Mode Far How Much",0,15,0,function(Bool)
 TextChatService.OnIncomingMessage = function(MessageData)
     task.spawn(function()
         local ChatWindow = game.CoreGui.ExperienceChat.appLayout.chatWindow.scrollingView.bottomLockedScrollView.RCTScrollView.RCTScrollContentView
